@@ -1,0 +1,11 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+double selsi;
+cout<<"Selsi derecesini daxil et: ";
+cin>>selsi;
+ double faranheit=selsi*1.8+32;
+ cout<<selsi<<"Selsi"<<faranheit<<"Faranheite Beraberdir."<<endl;
+  return 0;
+}
