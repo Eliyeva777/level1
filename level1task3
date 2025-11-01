@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() {
+   double a;
+  cout<<"Bir eded daxil ed: ";
+  cin>>a;
+  double kvadrat=a*a;
+  double kub=a*a*a;
+  cout<<"Ededin kvadrati: "<<kvadrat<<endl;
+  cout<<"Ededin kubu: "<<kub<<endl;
+
+   return 0;
+}
+  
