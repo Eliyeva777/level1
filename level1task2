@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+int a, b;
+cout<<"Birinci ededi daxil ed: ";
+cin>>a;
+cout<<"Ikinci ededi daxil ed; ";
+cin>>b;
+cout<<"NETICELER"<<endl;
+cout<<"CEM: "<<a+b<<endl;
+cout<<"FERQ: "<<a-b<<endl;
+cout<<"VURMA: "<<a*b<<endl;
+
+if(b!=0)
+cout<<"BOLME: :"<<a/b<<endl;
+else
+cout<<"BOLME: SIFIRA BOLMEK MUMUKUN DEYIL"<<ENDL;
+return 0;
+}
